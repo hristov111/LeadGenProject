@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
 import { leadSchema } from "@/lib/schemas";
 import { checkAdminAuth } from "@/lib/auth";
+import { Lead } from "@prisma/client";
 
 const rateLimitMap = new Map<string, { count: number; firstSubmission: number }>();
 
@@ -59,7 +60,7 @@ export async function POST(request: Request) {
         });
 
         // More precise normalization check
-        const originalLead = existingLeads.find((l: any) => normalizePhone(l.phone) === normalizedPhone);
+        const originalLead = existingLeads.find((l: Lead) => normalizePhone(l.phone) === normalizedPhone);
 
         let qualityScore = 0;
         if (data.timeline === "now") qualityScore += 2;
