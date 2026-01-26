@@ -1,0 +1,317 @@
+{
+    "navigation": {
+        "howItWorks": "Nasıl Çalışır",
+        "faq": "SSS",
+        "phone": "0888 123 456"
+    },
+    "hero": {
+        "updated": "Güncellendi",
+        "titlePrefix": "Bölgenizdeki En İyi",
+        "titleHighlight": "İnternet & Mobil",
+        "titleSuffix": "Planlarını Bulun",
+        "authorityLine": "Bağımsız Telekom Danışmanı",
+        "subtitle": "En iyi Bulgar sağlayıcıların tekliflerini anında karşılaştırın. Adresinize göre en hızlı hızı ve en düşük fiyatı bulmanıza yardımcı oluyoruz.",
+        "trustLine": "Kapsama alanını ve bütçeyi kontrol ediyoruz.",
+        "microTrust": "Ücretsiz • 1 Dakika • Zorunluluk Yok",
+        "independentBadge": "BAĞIMSIZ",
+        "ctaPrimary": "Aramayı Başlat",
+        "ctaPrimarySub": "Numara bırakın → uygun tekliflerle arama alın",
+        "ctaSecondary": "Nasıl çalışır",
+        "ctaDirect": "Doğrudan arama istiyorum",
+        "cityReassurance": "Sofya, Filibe, Varna ve 50+ şehirde hizmet veriyoruz."
+    },
+    "trust": {
+        "title": "Neden Biz?",
+        "cards": [
+            {
+                "title": "Bağımsızız",
+                "desc": "Bir operatöre bağlı değiliz."
+            },
+            {
+                "title": "İhtiyaç Odaklı",
+                "desc": "Tekliflerden değil, sizden başlıyoruz."
+            },
+            {
+                "title": "Baskı Yok",
+                "desc": "Karar sizin."
+            }
+        ]
+    },
+    "stats": {
+        "familiesHelped": "Aileye Yardım Edildi",
+        "providersCompared": "Sağlayıcı Karşılaştırıldı",
+        "averageSavings": "Ortalama Tasarruf",
+        "serviceCost": "Hizmet Bedeli",
+        "allMajor": "Tüm Büyükler"
+    },
+    "services": {
+        "title": "Ne arıyorsunuz?",
+        "subtitle": "Fırsatları görmek için bir kategori seçin.",
+        "internet": {
+            "title": "Ev İnterneti",
+            "desc": "Fiber & 5G seçenekleri"
+        },
+        "mobile": {
+            "title": "Mobil Planlar",
+            "desc": "Sınırsız veri & arama"
+        },
+        "tv": {
+            "title": "TV Paketleri",
+            "desc": "İnteraktif TV + Net"
+        },
+        "business": {
+            "title": "İşletme",
+            "desc": "Özel hatlar"
+        }
+    },
+    "howItWorks": {
+        "title": "Nasıl Çalışır",
+        "subtitle": "Daha iyi internet için 3 basit adım.",
+        "step1": {
+            "title": "1. Anketi Doldurun",
+            "desc": "60 saniyede konumunuzu ve ihtiyaçlarınızı söyleyin."
+        },
+        "step2": {
+            "title": "2. Karşılaştırın",
+            "desc": "Kapsama alanını kontrol edip en iyi planları buluyoruz."
+        },
+        "step3": {
+            "title": "3. Bağlanın",
+            "desc": "En iyi seçeneği seçin ve bağlanın."
+        }
+    },
+    "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "items": [
+            {
+                "q": "Bu hizmet ücretsiz mi?",
+                "a": "Evet, karşılaştırma hizmetimiz sizin için %100 ücretsizdir."
+            },
+            {
+                "q": "Hangi sağlayıcılarla çalışıyorsunuz?",
+                "a": "Tüm büyük Bulgar telekom sağlayıcılarının tekliflerini izliyoruz."
+            },
+            {
+                "q": "Ne kadar sürede yanıt alırım?",
+                "a": "Bilgilerinizi gönderdikten sonra, bir uzman genellikle iş saatlerinde 15-30 dakika içinde sizinle iletişime geçer."
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "TelecomBGLabs. Bağımsız Telekom Danışmanı.",
+        "disclaimer": "Belirli bir sağlayıcıyla bağlantımız yoktur.",
+        "links": {
+            "privacy": "Gizlilik Politikası",
+            "terms": "Kullanım Koşulları",
+            "cookies": "Çerezler",
+            "about": "Hakkımızda",
+            "contact": "İletişim"
+        }
+    },
+    "privacy": {
+        "title": "Gizlilik Politikası",
+        "lastUpdated": "2026",
+        "intro": "",
+        "sections": [
+            {
+                "title": "1. Veri Sorumlusu",
+                "content": ""
+            },
+            {
+                "title": "2. Veriler",
+                "content": ""
+            },
+            {
+                "title": "3. Yasal Dayanak",
+                "content": ""
+            },
+            {
+                "title": "4. Amaç",
+                "content": ""
+            },
+            {
+                "title": "5. Saklama Süresi",
+                "content": ""
+            },
+            {
+                "title": "6. Koruma",
+                "content": ""
+            },
+            {
+                "title": "7. Haklar",
+                "content": ""
+            }
+        ]
+    },
+    "terms": {
+        "title": "Kullanım Koşulları",
+        "lastUpdated": "2026",
+        "sections": [],
+        "contact": ""
+    },
+    "cookies": {
+        "title": "Çerezler",
+        "intro": "",
+        "types": []
+    },
+    "about": {
+        "title": "Hakkımızda",
+        "mission": "",
+        "content": "",
+        "values": [],
+        "howItWorks": {
+            "title": "Nasıl çalışıyoruz",
+            "steps": []
+        },
+        "gdpr": ""
+    },
+    "contact": {
+        "title": "İletişim",
+        "subtitle": "",
+        "form": {
+            "name": "İsim",
+            "email": "E-posta",
+            "message": "Mesaj",
+            "submit": "Gönder"
+        },
+        "note": ""
+    },
+    "business": {
+        "title": "Kurumsal",
+        "subtitle": "",
+        "features": [],
+        "cta": "Teklif Al"
+    },
+    "notfound": {
+        "title": "Bulunamadı",
+        "message": "",
+        "back": "Anasayfa"
+    },
+    "error": {
+        "title": "Hata",
+        "message": "",
+        "retry": "Tekrar Dene",
+        "back": "Anasayfa"
+    },
+    "quiz": {
+        "steps": {
+            "city": "Şehir",
+            "service": "Hizmet",
+            "usage": "Kullanım",
+            "budget": "Bütçe",
+            "timeline": "Zaman"
+        },
+        "step1": {
+            "title": "Hizmete nerede ihtiyacınız var?",
+            "subtitle": "Yerel sağlayıcıları bulmak için şehrinize ihtiyacımız var.",
+            "placeholder": "Şehrinizi girin (ör. Sofya)"
+        },
+        "step2": {
+            "title": "Hangi hizmeti arıyorsunuz?",
+            "options": {
+                "internet": "Ev İnterneti",
+                "mobile": "Mobil Plan",
+                "bundle": "İnternet + TV",
+                "business": "İşletme Telekom"
+            }
+        },
+        "step3": {
+            "title": "Bunu esas olarak nasıl kullanacaksınız?",
+            "options": {
+                "streaming": {
+                    "label": "Streaming (Netflix, YouTube, 4K)",
+                    "desc": "Yüksek hız ve stabilite gerektirir"
+                },
+                "work": {
+                    "label": "Evden Çalışma / Görüntülü Aramalar",
+                    "desc": "Yükleme hızı ve güvenilirlik gerektirir"
+                },
+                "gaming": {
+                    "label": "Online Oyun",
+                    "desc": "Düşük gecikme süresi (ping) gerektirir"
+                },
+                "light": {
+                    "label": "Gezinme ve Sosyal Medya",
+                    "desc": "Temel bağlantı yeterlidir"
+                }
+            }
+        },
+        "step4": {
+            "title": "Aylık bütçeniz ne kadar?",
+            "options": {
+                "low": "30 BGN altı",
+                "medium": "30–60 BGN",
+                "high": "60+ BGN",
+                "no_preference": "Tercihim yok"
+            }
+        },
+        "step5": {
+            "title": "Ne zaman ihtiyacınız var?",
+            "options": {
+                "now": "En kısa sürede",
+                "30_days": "Bu ay",
+                "later": "Sadece bakıyorum"
+            }
+        },
+        "navigation": {
+            "back": "Geri",
+            "next": "İleri",
+            "skip": "Atla",
+            "viewResults": "Sonuçları Gör",
+            "progress": "Adım {step} / {total} • ~60s"
+        },
+        "loading": "Yükleniyor..."
+    },
+    "lead": {
+        "title": "Son Adım",
+        "subtitle": "En iyi teklifleri nereye gönderelim?",
+        "name": "Ad Soyad",
+        "phone": "Telefon Numarası",
+        "email": "E-posta Adresi (İsteğe Bağlı)",
+        "consent": "Telekom teklifleri hakkında telefonla aranmayı kabul ediyorum.",
+        "submit": "Teklifleri Al",
+        "submitting": "Gönderiliyor...",
+        "secure": "Spam yok. İstediğiniz zaman ayrılabilirsiniz.",
+        "confirmPhone": "Numaranızı onaylayın:",
+        "confirm": "Onayla",
+        "edit": "Düzenle",
+        "summary": {
+            "title": "Tercihleriniz",
+            "city": "Şehir",
+            "service": "Hizmet",
+            "usage": "Kullanım",
+            "timeline": "Zaman",
+            "budget": "Bütçe"
+        }
+    },
+    "results": {
+        "title": "İhtiyaçlarınız analiz ediliyor...",
+        "foundTitle": "Uygun teklifler bulduk!",
+        "foundSubtitle": "**{city}** ve **{service}** kriterlerinize göre.",
+        "providerCount": "3 en iyi sağlayıcı aramanızla eşleşiyor.",
+        "cta": "Teklifleri Gör",
+        "secure": "Ücretsiz ve Bağlayıcılığı Yok"
+    },
+    "thankYou": {
+        "title": "Teşekkürler!",
+        "subtitle": "Talebinizi aldık.",
+        "message": "Uzmanlarımızdan biri, adresiniz için en iyi teklifleri sunmak üzere yakında sizinle iletişime geçecektir.",
+        "back": "Ana Sayfaya Dön"
+    },
+    "ctas": {
+        "landingReady": "Doğru hizmeti bulmaya hazır mısınız?",
+        "landingSubtitle": "Adresiniz için en iyi teklifi bulmak bir dakikadan az sürer.",
+        "landingContact": "Bize Ulaşın",
+        "quizTime": "Yaklaşık 1 dakika sürer",
+        "quizFree": "Tamamen ücretsiz ve bağlayıcı değil",
+        "resultsNextStep": "Sonraki Adım: Özel teklifleri alın",
+        "resultsContinue": "Devam Et",
+        "resultsContact": "Veya doğrudan bizimle iletişime geçin",
+        "aboutReady": "Başlamaya hazır mısınız?",
+        "policyReady": "Şartları kabul ediyorsanız aramaya devam edebilirsiniz.",
+        "contactBackToQuiz": "Birkaç soruyu yanıtlamayı mı tercih edersiniz?",
+        "faqStillHaveQuestions": "Hala sorularınız mı var?",
+        "faqConsultantHelp": "Danışmanımız herhangi bir zorunluluk olmaksızın en iyi çözümü bulmanıza yardımcı olabilir.",
+        "faqFreeConsultation": "Ücretsiz danışmanlık istiyorum"
+    }
+}

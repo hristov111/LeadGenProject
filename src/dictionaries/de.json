@@ -1,0 +1,317 @@
+{
+    "navigation": {
+        "howItWorks": "Wie es funktioniert",
+        "faq": "FAQ",
+        "phone": "0888 123 456"
+    },
+    "hero": {
+        "updated": "Aktualisiert für",
+        "titlePrefix": "Finden Sie die besten",
+        "titleHighlight": "Internet & Mobil",
+        "titleSuffix": "Tarife in Ihrer Nähe",
+        "authorityLine": "Unabhängiger Telekom-Berater",
+        "subtitle": "Vergleichen Sie Angebote von führenden bulgarischen Anbietern sofort. Wir helfen Ihnen, die schnellste Geschwindigkeit und den niedrigsten Preis zu finden.",
+        "trustLine": "Wir prüfen Abdeckung, Bedarf und Budget.",
+        "microTrust": "Kostenlos • 1 Minute • Unverbindlich",
+        "independentBadge": "UNABHÄNGIG",
+        "ctaPrimary": "Suche starten",
+        "ctaPrimarySub": "Nummer hinterlassen → Anruf mit passenden Angeboten erhalten",
+        "ctaSecondary": "Wie es funktioniert",
+        "ctaDirect": "Ich möchte einen direkten Anruf",
+        "cityReassurance": "Wir arbeiten in Sofia, Plovdiv, Varna und 50+ weiteren Städten."
+    },
+    "trust": {
+        "title": "Warum wir?",
+        "cards": [
+            {
+                "title": "Unabhängig",
+                "desc": "Kein Anbieter-Zwang."
+            },
+            {
+                "title": "Bedarfsorientiert",
+                "desc": "Wir starten bei Ihrer Nutzung."
+            },
+            {
+                "title": "Kein Druck",
+                "desc": "Sie entscheiden."
+            }
+        ]
+    },
+    "stats": {
+        "familiesHelped": "Familien geholfen",
+        "providersCompared": "Anbieter verglichen",
+        "averageSavings": "Durchschnittliche Ersparnis",
+        "serviceCost": "Dienstleistungskosten",
+        "allMajor": "Alle großen"
+    },
+    "services": {
+        "title": "Was suchen Sie?",
+        "subtitle": "Wählen Sie eine Kategorie, um Angebote zu sehen.",
+        "internet": {
+            "title": "Heiminternet",
+            "desc": "Glasfaser & 5G Optionen"
+        },
+        "mobile": {
+            "title": "Handytarife",
+            "desc": "Unbegrenzte Daten & Anrufe"
+        },
+        "tv": {
+            "title": "TV-Pakete",
+            "desc": "Interaktives TV + Netz"
+        },
+        "business": {
+            "title": "Geschäft",
+            "desc": "Dedizierte Leitungen"
+        }
+    },
+    "howItWorks": {
+        "title": "Wie es funktioniert",
+        "subtitle": "3 einfache Schritte zum besseren Internet.",
+        "step1": {
+            "title": "1. Quiz beantworten",
+            "desc": "Teilen Sie uns Ihren Standort und Bedarf in 60 Sekunden mit."
+        },
+        "step2": {
+            "title": "2. Vergleichen",
+            "desc": "Wir prüfen die Abdeckung und finden die besten Tarife."
+        },
+        "step3": {
+            "title": "3. Verbinden",
+            "desc": "Wählen Sie die beste Option und lassen Sie sich verbinden."
+        }
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen",
+        "items": [
+            {
+                "q": "Ist dieser Service kostenlos?",
+                "a": "Ja, unser Vergleichsservice ist für Sie 100% kostenlos."
+            },
+            {
+                "q": "Mit welchen Anbietern arbeiten Sie zusammen?",
+                "a": "Wir überwachen Angebote aller großen bulgarischen Telekommunikationsanbieter."
+            },
+            {
+                "q": "Wie schnell erhalte ich eine Antwort?",
+                "a": "Ein Spezialist kontaktiert Sie normalerweise innerhalb von 15-30 Minuten während der Geschäftszeiten."
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "TelecomBGLabs. Unabhängiger Telekom-Berater.",
+        "disclaimer": "Nicht mit einem bestimmten Anbieter verbunden.",
+        "links": {
+            "privacy": "Datenschutz",
+            "terms": "AGB",
+            "cookies": "Cookies",
+            "about": "Über uns",
+            "contact": "Kontakt"
+        }
+    },
+    "privacy": {
+        "title": "Datenschutz",
+        "lastUpdated": "2026",
+        "intro": "",
+        "sections": [
+            {
+                "title": "1. Verantwortlicher",
+                "content": ""
+            },
+            {
+                "title": "2. Daten",
+                "content": ""
+            },
+            {
+                "title": "3. Rechtsgrundlage",
+                "content": ""
+            },
+            {
+                "title": "4. Zweck",
+                "content": ""
+            },
+            {
+                "title": "5. Dauer",
+                "content": ""
+            },
+            {
+                "title": "6. Schutz",
+                "content": ""
+            },
+            {
+                "title": "7. Rechte",
+                "content": ""
+            }
+        ]
+    },
+    "terms": {
+        "title": "AGB",
+        "lastUpdated": "2026",
+        "sections": [],
+        "contact": ""
+    },
+    "cookies": {
+        "title": "Cookies",
+        "intro": "",
+        "types": []
+    },
+    "about": {
+        "title": "Über uns",
+        "mission": "",
+        "content": "",
+        "values": [],
+        "howItWorks": {
+            "title": "Wie wir arbeiten",
+            "steps": []
+        },
+        "gdpr": ""
+    },
+    "contact": {
+        "title": "Kontakt",
+        "subtitle": "",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Nachricht",
+            "submit": "Senden"
+        },
+        "note": ""
+    },
+    "business": {
+        "title": "Business",
+        "subtitle": "",
+        "features": [],
+        "cta": "Angebot"
+    },
+    "notfound": {
+        "title": "Nicht gefunden",
+        "message": "",
+        "back": "Home"
+    },
+    "error": {
+        "title": "Fehler",
+        "message": "",
+        "retry": "Nochmal",
+        "back": "Home"
+    },
+    "quiz": {
+        "steps": {
+            "city": "Stadt",
+            "service": "Dienst",
+            "usage": "Nutzung",
+            "budget": "Budget",
+            "timeline": "Zeitraum"
+        },
+        "step1": {
+            "title": "Wo benötigen Sie den Service?",
+            "subtitle": "Wir benötigen Ihre Stadt, um lokale Anbieter zu finden.",
+            "placeholder": "Geben Sie Ihre Stadt ein (z.B. Sofia)"
+        },
+        "step2": {
+            "title": "Welchen Service suchen Sie?",
+            "options": {
+                "internet": "Heiminternet",
+                "mobile": "Handytarif",
+                "bundle": "Internet + TV",
+                "business": "Business Telecom"
+            }
+        },
+        "step3": {
+            "title": "Wie werden Sie es hauptsächlich nutzen?",
+            "options": {
+                "streaming": {
+                    "label": "Streaming (Netflix, YouTube, 4K)",
+                    "desc": "Erfordert hohe Geschwindigkeit & Stabilität"
+                },
+                "work": {
+                    "label": "Home Office / Videoanrufe",
+                    "desc": "Erfordert Upload-Geschwindigkeit & Zuverlässigkeit"
+                },
+                "gaming": {
+                    "label": "Online-Gaming",
+                    "desc": "Erfordert niedrige Latenz (Ping)"
+                },
+                "light": {
+                    "label": "Browsen & Soziale Medien",
+                    "desc": "Basisverbindung ist ausreichend"
+                }
+            }
+        },
+        "step4": {
+            "title": "Wie hoch ist Ihr monatliches Budget?",
+            "options": {
+                "low": "Unter 30 BGN",
+                "medium": "30–60 BGN",
+                "high": "60+ BGN",
+                "no_preference": "Keine Präferenz"
+            }
+        },
+        "step5": {
+            "title": "Wann benötigen Sie es?",
+            "options": {
+                "now": "So schnell wie möglich",
+                "30_days": "Diesen Monat",
+                "later": "Nur zur Beobachtung"
+            }
+        },
+        "navigation": {
+            "back": "Zurück",
+            "next": "Nächster Schritt",
+            "skip": "Überspringen",
+            "viewResults": "Ergebnisse ansehen",
+            "progress": "Schritt {step} von {total} • ~60s"
+        },
+        "loading": "Laden..."
+    },
+    "lead": {
+        "title": "Letzter Schritt",
+        "subtitle": "Wohin sollen wir die besten Angebote senden?",
+        "name": "Vollständiger Name",
+        "phone": "Telefonnummer",
+        "email": "E-Mail-Adresse (Optional)",
+        "consent": "Ich stimme zu, telefonisch bezüglich Telekommunikationsangeboten kontaktiert zu werden.",
+        "submit": "Angebote erhalten",
+        "submitting": "Senden...",
+        "secure": "Kein Spam. Sie können sich jederzeit abmelden.",
+        "confirmPhone": "Bestätigen Sie Ihre Nummer:",
+        "confirm": "Bestätigen",
+        "edit": "Bearbeiten",
+        "summary": {
+            "title": "Ihre Präferenzen",
+            "city": "Stadt",
+            "service": "Dienst",
+            "usage": "Nutzung",
+            "timeline": "Zeitraum",
+            "budget": "Budget"
+        }
+    },
+    "results": {
+        "title": "Ihre Bedürfnisse werden analysiert...",
+        "foundTitle": "Wir haben passende Angebote gefunden!",
+        "foundSubtitle": "Basierend auf Ihren Kriterien für **{city}** und **{service}**.",
+        "providerCount": "3 Top-Anbieter entsprechen Ihrer Suche.",
+        "cta": "Angebote ansehen",
+        "secure": "Kostenlos & unverbindlich"
+    },
+    "thankYou": {
+        "title": "Vielen Dank!",
+        "subtitle": "Wir haben Ihre Anfrage erhalten.",
+        "message": "Einer unserer Spezialisten wird Sie in Kürze kontaktieren, um Ihnen die besten Angebote für Ihre Adresse vorzustellen.",
+        "back": "Zurück zur Startseite"
+    },
+    "ctas": {
+        "landingReady": "Bereit, den passenden Service zu finden?",
+        "landingSubtitle": "Es dauert weniger als eine Minute, um das beste Angebot für Ihre Adresse zu finden.",
+        "landingContact": "Kontaktieren Sie uns",
+        "quizTime": "Dauert etwa 1 Minute",
+        "quizFree": "Völlig kostenlos & unverbindlich",
+        "resultsNextStep": "Nächster Schritt: Konkrete Angebote erhalten",
+        "resultsContinue": "Weiter",
+        "resultsContact": "Oder kontaktieren Sie uns direkt",
+        "aboutReady": "Bereit anzufangen?",
+        "policyReady": "Wenn Sie den Bedingungen zustimmen, können Sie mit der Suche fortfahren.",
+        "contactBackToQuiz": "Möchten Sie lieber ein paar Fragen beantworten?",
+        "faqStillHaveQuestions": "Haben Sie noch Fragen?",
+        "faqConsultantHelp": "Unser Berater kann Ihnen helfen, die beste Lösung unverbindlich zu finden.",
+        "faqFreeConsultation": "Ich möchte eine kostenlose Beratung"
+    }
+}

@@ -1,0 +1,394 @@
+{
+    "navigation": {
+        "howItWorks": "How it Works",
+        "faq": "FAQ",
+        "about": "About",
+        "contact": "Contact",
+        "business": "Business",
+        "phone": "0888 123 456"
+    },
+    "hero": {
+        "updated": "Updated for",
+        "titlePrefix": "Find the Best",
+        "titleHighlight": "Internet & Mobile",
+        "titleSuffix": "Plans in Your Area",
+        "authorityLine": "Independent Telecom Consultant for Bulgaria",
+        "subtitle": "Compare offers from top Bulgarian providers instantly. We help you find the fastest speed and lowest price based on your address.",
+        "trustLine": "We check coverage, needs, and budget — we don't sell a specific operator.",
+        "microTrust": "Free • 1 Minute • No Obligation",
+        "independentBadge": "INDEPENDENT",
+        "ctaPrimary": "Start My Search",
+        "ctaPrimarySub": "Leave number → get call with matching offers",
+        "ctaSecondary": "How it works",
+        "ctaDirect": "I want a direct call",
+        "cityReassurance": "We work with users in Sofia, Plovdiv, Varna, Burgas and 50+ other cities."
+    },
+    "trust": {
+        "title": "Why TelecomBGLabs?",
+        "cards": [
+            {
+                "title": "We are Independent",
+                "desc": "We do not belong to any operator."
+            },
+            {
+                "title": "Focus on Your Needs",
+                "desc": "We start from your usage, not from offers."
+            },
+            {
+                "title": "No Pressure",
+                "desc": "You decide if and when to connect."
+            }
+        ]
+    },
+    "stats": {
+        "familiesHelped": "Families Helped",
+        "providersCompared": "Providers Compared",
+        "averageSavings": "Average Savings",
+        "serviceCost": "Service Cost",
+        "allMajor": "All Major"
+    },
+    "services": {
+        "title": "What are you looking for?",
+        "subtitle": "Select a category to see available deals.",
+        "internet": {
+            "title": "Home Internet",
+            "desc": "Fiber & 5G options"
+        },
+        "mobile": {
+            "title": "Mobile Plans",
+            "desc": "Unlimited data & calls"
+        },
+        "tv": {
+            "title": "TV Bundles",
+            "desc": "Interactive TV + Net"
+        },
+        "business": {
+            "title": "Business",
+            "desc": "Dedicated lines"
+        }
+    },
+    "howItWorks": {
+        "title": "How it Works",
+        "subtitle": "3 simple steps to better internet.",
+        "step1": {
+            "title": "1. Answer Quiz",
+            "desc": "Tell us your location and needs in 60 seconds."
+        },
+        "step2": {
+            "title": "2. Compare",
+            "desc": "We check coverage and find the best matching plans."
+        },
+        "step3": {
+            "title": "3. Connect",
+            "desc": "Choose the best option and get connected."
+        }
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+            {
+                "q": "Is this service free?",
+                "a": "Yes, our comparison service is 100% free for you. We may earn a commission from providers if you sign up, but the price you pay is never higher."
+            },
+            {
+                "q": "Which providers do you work with?",
+                "a": "We monitor offers from all major Bulgarian telecom providers including Vivacom, Yettel, A1, and local ISPs."
+            },
+            {
+                "q": "How fast will I get a response?",
+                "a": "After submitting your details, a specialist usually contacts you within 15-30 minutes during business hours."
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "TelecomBGLabs. Independent Telecom Advisor.",
+        "disclaimer": "Not affiliated with any specific provider. We find the best public offers for you.",
+        "links": {
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "cookies": "Cookie Policy",
+            "about": "About Us",
+            "contact": "Contact"
+        }
+    },
+    "privacy": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last updated: Jan 24, 2026",
+        "intro": "Your privacy is important to us. This policy explains how we collect and use your data.",
+        "sections": [
+            {
+                "title": "1. Data Controller",
+                "content": "The data controller is TelecomBGLabs. For questions regarding the processing of personal data, you can contact us via the \"Contact\" page."
+            },
+            {
+                "title": "2. What data do we collect?",
+                "content": "We collect your name, phone number, and optionally your email address, as well as your quiz responses regarding your telecom needs."
+            },
+            {
+                "title": "3. Legal Basis for Processing",
+                "content": "The processing of personal data is carried out on the basis of explicit consent from the user, according to Art. 6, para. 1, item \"a\" of Regulation (EU) 2016/679 (GDPR)."
+            },
+            {
+                "title": "4. Why do we collect it?",
+                "content": "Data is used solely to contact you and offer suitable telecom plans."
+            },
+            {
+                "title": "5. Storage Period",
+                "content": "Personal data is stored for the period necessary to carry out contact and consultation, but no longer than reasonably necessary, unless legislation requires a longer period."
+            },
+            {
+                "title": "6. Data Protection",
+                "content": "We do not sell your data to third parties. It is stored securely and used only for consultation purposes. Data is not used for marketing purposes. It may only be shared for the purpose of communicating regarding the requested service."
+            },
+            {
+                "title": "7. Your Rights",
+                "content": "You have the right to access, correct, or delete your data at any time. To exercise your rights, you can contact us via the \"Contact\" page."
+            }
+        ]
+    },
+    "terms": {
+        "title": "Terms of Service",
+        "lastUpdated": "Last updated: Jan 24, 2026",
+        "sections": [
+            {
+                "title": "1. Description of Service",
+                "content": "TelecomBGLabs provides independent consultations for choosing telecommunication services. We are not an operator."
+            },
+            {
+                "title": "2. No Guarantees",
+                "content": "We do not guarantee availability or specific prices, as they are determined by the providers."
+            },
+            {
+                "title": "3. Responsibility",
+                "content": "The user is responsible for providing accurate information."
+            },
+            {
+                "title": "4. Limitation of Liability",
+                "content": "TelecomBGLabs is not responsible for decisions made based on the information provided, nor for the actions or omissions of third parties, including telecommunications service providers."
+            },
+            {
+                "title": "5. No Obligation to Contract",
+                "content": "Using the platform does not create an obligation to enter into a contract with a service provider. The user independently decides whether to accept a given offer."
+            },
+            {
+                "title": "6. Applicable Law",
+                "content": "These general terms and conditions are governed by the legislation of the Republic of Bulgaria."
+            },
+            {
+                "title": "7. Changes to Terms",
+                "content": "TelecomBGLabs reserves the right to update these general terms and conditions, and the current version is always available on the site."
+            }
+        ],
+        "contact": "For questions regarding these general terms and conditions, you can contact us via the \"Contact\" page."
+    },
+    "cookies": {
+        "title": "Cookie Policy",
+        "intro": "We use only essential cookies for the functioning of the site and basic analysis.",
+        "types": [
+            {
+                "title": "Essential",
+                "content": "They remember your language preferences."
+            },
+            {
+                "title": "Analytical",
+                "content": "They help us understand how the site is used."
+            }
+        ]
+    },
+    "about": {
+        "title": "About TelecomBGLabs",
+        "mission": "Our mission is to bring transparency to the telecom market in Bulgaria.",
+        "content": "We are an independent platform created to help users find the best internet and mobile service plans, saving time and money. \n\nTelecomBGLabs is a Bulgarian technology project developed to simplify the choice of internet and mobile services through structured comparison and personalized recommendations.",
+        "values": [
+            {
+                "title": "Independence",
+                "desc": "We do not work for a specific operator."
+            },
+            {
+                "title": "Transparency",
+                "desc": "We show the real conditions."
+            }
+        ],
+        "howItWorks": {
+            "title": "How we work",
+            "steps": [
+                "We collect your requirements through a short quiz",
+                "We analyze your needs against various service types",
+                "We connect you with a specialist for specific offers"
+            ]
+        },
+        "gdpr": "We operate in compliance with GDPR. Data is used solely for the purpose of communicating regarding suitable offers."
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "Get in touch.",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Send",
+            "success": "Sent!"
+        },
+        "alternative": "",
+        "note": ""
+    },
+    "business": {
+        "title": "Business Solutions",
+        "subtitle": "Corporate connectivity and professional services for your office.",
+        "features": [
+            {
+                "title": "High Availability (SLA)",
+                "desc": "Guaranteed response time and support."
+            },
+            {
+                "title": "Scalability",
+                "desc": "Solutions that grow with your business."
+            }
+        ],
+        "cta": "Get Business Offer"
+    },
+    "notfound": {
+        "title": "Page Not Found",
+        "message": "Wrong turn?",
+        "back": "Home"
+    },
+    "error": {
+        "title": "Something went wrong",
+        "message": "Please try again later.",
+        "retry": "Retry",
+        "back": "Home"
+    },
+    "quiz": {
+        "steps": {
+            "city": "City",
+            "service": "Service",
+            "usage": "Usage",
+            "budget": "Budget",
+            "timeline": "Timeline"
+        },
+        "step1": {
+            "title": "Where do you need service?",
+            "subtitle": "We need your city to find local providers.",
+            "placeholder": "Enter your city (e.g. Sofia)"
+        },
+        "step2": {
+            "title": "What service are you looking for?",
+            "options": {
+                "internet": "Home Internet",
+                "mobile": "Mobile Plan",
+                "bundle": "Internet + TV",
+                "business": "Business Telecom"
+            }
+        },
+        "step3": {
+            "title": "How will you use it primarily?",
+            "options": {
+                "streaming": {
+                    "label": "Streaming (Netflix, YouTube, 4K)",
+                    "desc": "Requires high speed & stability"
+                },
+                "work": {
+                    "label": "Work from Home / Video Calls",
+                    "desc": "Requires upload speed & reliability"
+                },
+                "gaming": {
+                    "label": "Online Gaming",
+                    "desc": "Requires low latency (ping)"
+                },
+                "light": {
+                    "label": "Browsing & Social Media",
+                    "desc": "Basic connection is enough"
+                }
+            }
+        },
+        "step4": {
+            "title": "What is your monthly budget?",
+            "options": {
+                "low": "Under 30 BGN",
+                "medium": "30–60 BGN",
+                "high": "60+ BGN",
+                "no_preference": "No preference"
+            }
+        },
+        "step5": {
+            "title": "When do you need it?",
+            "options": {
+                "now": "ASAP (Within a week)",
+                "30_days": "This month",
+                "later": "Just adding to watchlist"
+            }
+        },
+        "navigation": {
+            "back": "Back",
+            "next": "Next Step",
+            "skip": "Skip",
+            "viewResults": "View Results",
+            "progress": "Step {step} of {total} • ~60s"
+        },
+        "loading": "Loading..."
+    },
+    "lead": {
+        "title": "Final Step",
+        "subtitle": "Where should we send the best offers?",
+        "name": "Full Name",
+        "phone": "Phone Number",
+        "email": "Email Address (Optional)",
+        "consent": "I agree to be contacted by phone regarding telecom offers.",
+        "submit": "Get My Offers",
+        "submitting": "Sending...",
+        "secure": "No spam. You can opt out at any time.",
+        "confirmPhone": "Confirm your number:",
+        "confirm": "Confirm",
+        "edit": "Edit",
+        "summary": {
+            "title": "Your Preferences",
+            "city": "City",
+            "service": "Service",
+            "usage": "Usage",
+            "timeline": "Timeline",
+            "budget": "Budget"
+        }
+    },
+    "results": {
+        "title": "Analyzing your needs...",
+        "foundTitle": "We found matching offers!",
+        "foundSubtitle": "Based on your criteria for **{city}** and **{service}**.",
+        "providerCount": "Plans found from top providers.",
+        "cta": "View Offers",
+        "secure": "Free & No Obligation",
+        "matchStatus": "Handpicked for your criteria",
+        "planTypes": {
+            "internet_speed": "High-Speed Fiber Internet",
+            "internet_budget": "Budget-Friendly Home Internet",
+            "mobile_unlimited": "Unlimited Mobile Data",
+            "mobile_budget": "Budget Mobile Plans",
+            "tv_package": "Interactive TV + Sports",
+            "business_pro": "Business Connectivity (SLA)",
+            "generic": "Best Market Offers"
+        }
+    },
+    "thankYou": {
+        "title": "Thank You!",
+        "subtitle": "We have received your request.",
+        "message": "One of our specialists will contact you shortly to present the best offers for your address.",
+        "duplicateSubtitle": "It looks like you've already left a number.",
+        "duplicateMessage": "If you wish for a new call, we will contact you again.",
+        "back": "Back to Home"
+    },
+    "ctas": {
+        "landingReady": "Ready to find the right service?",
+        "landingSubtitle": "It takes less than a minute to find the best offer for your address.",
+        "landingContact": "Contact Us",
+        "quizTime": "Takes about 1 minute",
+        "quizFree": "Completely free & no obligation",
+        "resultsNextStep": "Next Step: Get specific offers",
+        "resultsContinue": "Continue",
+        "resultsContact": "Or contact us directly",
+        "aboutReady": "Ready to get started?",
+        "policyReady": "If you agree with the terms, you can proceed to the search.",
+        "contactBackToQuiz": "Prefer to answer a few questions?",
+        "faqStillHaveQuestions": "Still have questions?",
+        "faqConsultantHelp": "Our consultant can help you find the best solution without obligation.",
+        "faqFreeConsultation": "I want a free consultation"
+    }
+}

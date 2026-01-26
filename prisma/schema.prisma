@@ -1,0 +1,59 @@
+generator client {
+  provider        = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Lead {
+  id          String   @id @default(uuid())
+  createdAt   DateTime @default(now())
+  name        String
+  phone       String
+  email       String?
+  city        String
+  serviceType String   // 'internet' | 'mobile' | 'bundle' | 'business'
+  usageIntent String   // 'streaming' | 'work' | 'gaming' | 'light'
+  budget      String?
+  timeline    String   // 'now' | '30_days' | 'later'
+  consent     Boolean
+  status      String   @default("new") // 'new' | 'contacted'
+  notes       String?
+
+  // Source Tracking
+  source      String?  // utm_source
+  campaign    String?  // utm_campaign
+  medium      String?  // utm_medium
+  content     String?  // utm_content
+  term        String?  // utm_term
+  referrer    String?
+  formName    String?  @default("main_contact")
+
+  // Assignment & Workflow
+  assignedTo      String?
+  assignedAt      DateTime?
+  followUpAt      DateTime?
+  nextAction      String?   // 'call' | 'email' | 'whatsapp'
+  callOutcome     String?   // 'no_answer' | 'interested' | 'not_interested' | 'converted'
+  pipelineStatus  String    @default("new") // 'new' | 'contacted' | 'qualified' | 'converted' | 'rejected'
+
+  // Operator / Partner Feedback
+  operatorAccepted Boolean?
+  activationDate   DateTime?
+  operatorNotes    String?
+
+  // Compliance & Security
+  ipAddress        String?
+  consentTimestamp DateTime? @default(now())
+  policyVersion    String?   @default("1.0")
+
+  // Duplicate handling
+  isDuplicate     Boolean  @default(false)
+  duplicateCount  Int      @default(0)
+  originalLeadId  String?
+  lastSubmittedAt DateTime?
+
+  // Quality Tracking
+  qualityScore    Int      @default(0)
+}
