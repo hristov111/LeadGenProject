@@ -59,7 +59,7 @@ export async function POST(request: Request) {
         });
 
         // More precise normalization check
-        const originalLead = existingLeads.find(l => normalizePhone(l.phone) === normalizedPhone);
+        const originalLead = existingLeads.find((l: any) => normalizePhone(l.phone) === normalizedPhone);
 
         let qualityScore = 0;
         if (data.timeline === "now") qualityScore += 2;
