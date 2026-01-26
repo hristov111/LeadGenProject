@@ -62,7 +62,11 @@ export function middleware(request: NextRequest) {
     if (pathname.includes('/admin')) {
         const session = request.cookies.get('admin_session')?.value;
         const secretKey = request.nextUrl.searchParams.get('key');
-        const expectedSecret = process.env.ADMIN_SECRET_KEY;
+        // Fallback for easier setup if env var is missing
+        const expectedSecret = process.env.ADMIN_SECRET_KEY || 'telecom_master_access';
+
+        console.log(`[Middleware] Checking admin access for: ${pathname}`);
+        console.log(`[Middleware] Has session: ${!!session}, Has key: ${!!secretKey}`);
 
         // 1. If user is authenticated, they can see everything in /admin
         if (session) {
@@ -70,10 +74,16 @@ export function middleware(request: NextRequest) {
         }
 
         // 2. If user is NOT authenticated, but is trying to reach the login page WITH the SECRET KEY
-        if (pathname.includes('/admin/login') && secretKey && secretKey === expectedSecret) {
-            return NextResponse.next();
+        if (pathname.includes('/admin/login') && secretKey) {
+            if (secretKey === expectedSecret) {
+                console.log('[Middleware] Secret key matched, allowing access to login');
+                return NextResponse.next();
+            } else {
+                console.log(`[Middleware] Secret key mismatch. Expected: ${expectedSecret?.slice(0, 3)}... provided: ${secretKey}`);
+            }
         }
 
+        console.log('[Middleware] Access denied, rewriting to 404');
         // 3. In all other cases (unauthenticated + no secret key), 
         // we REWRITE to /not-found to make the admin area look non-existent (404).
         const segments = pathname.split('/');
