@@ -313,5 +313,104 @@
         "faqStillHaveQuestions": "Hala sorularınız mı var?",
         "faqConsultantHelp": "Danışmanımız herhangi bir zorunluluk olmaksızın en iyi çözümü bulmanıza yardımcı olabilir.",
         "faqFreeConsultation": "Ücretsiz danışmanlık istiyorum"
+    },
+    "internet_landing": {
+        "hero": {
+            "title": "Adresiniz İçin En İyi Ev İnterneti",
+            "subtitle": "Tüm ana operatörleri karşılaştırın ve gerçek kapsama alanını kontrol edin.",
+            "cta": "Adresinizde gerçekte hangi internetin çalıştığını kontrol edin",
+            "trust": {
+                "free": "Ücretsiz",
+                "no_obligation": "Zorunluluk Yok",
+                "independent": "Bağımsız Hizmet"
+            }
+        },
+        "how_it_works": {
+            "title": "Nasıl Çalışır",
+            "steps": [
+                {
+                    "title": "Kısa bir anketi doldurun",
+                    "desc": "Sadece 1 dakika sürer."
+                },
+                {
+                    "title": "Kontrol",
+                    "desc": "Kapsama alanını ve ihtiyaçlarınızı kontrol ediyoruz."
+                },
+                {
+                    "title": "Öneri",
+                    "desc": "Kişiselleştirilmiş bir öneri alırsınız."
+                }
+            ]
+        },
+        "educational": {
+            "title": "Ev İnterneti Türleri",
+            "optic": {
+                "title": "Fiber Optik İnternet",
+                "subtitle": "Ne zaman en iyi seçenek",
+                "desc": "Optik kablolar üzerinden ışık sinyalleri ile en yüksek hızı ve dengeyi sağlar.",
+                "pros": "Maksimum hız, yüksek stabilite",
+                "cons": "Adrese göre değişir"
+            },
+            "cable": {
+                "title": "Kablo İnternet",
+                "subtitle": "Ne zaman uygun",
+                "desc": "Koaksiyel kablolar kullanır. Fiberin olmadığı yerlerde iyi bir alternatiftir.",
+                "pros": "Yaygın olarak bulunur",
+                "cons": "Olası kesintiler"
+            },
+            "mobile": {
+                "title": "5G Ev İnterneti",
+                "subtitle": "Ne zaman iyi çalışabilir",
+                "desc": "Mobil ağ üzerinden kablosuz internet. Kurulumu kolay.",
+                "pros": "Hızlı kurulum, kablo yok",
+                "cons": "Ağ yüküne bağlı"
+            }
+        },
+        "key_factors": {
+            "title": "Gerçekten Önemli Olanlar",
+            "items": [
+                "Adrese göre gerçek kapsama alanı (sadece haritada değil)",
+                "Maksimum hız yerine kararlılık",
+                "Akşamları ağ yükü",
+                "Sözleşmeler ve şartlar"
+            ]
+        },
+        "city_section": {
+            "title": "{{city}} içinde Ev İnterneti",
+            "description": "Kullanılabilirlik ve kalite, belirli şehre ve mahalleye bağlıdır.",
+            "availability_title": "{{city}} Mevcut İnternet Türleri",
+            "problems_title": "{{city}} Yaygın İnternet Sorunları"
+        },
+        "cta_repeat": {
+            "button": "Adresinizde gerçekte hangi internetin çalıştığını kontrol edin",
+            "free": "Ücretsiz Hizmet",
+            "no_obligation": "Zorunluluk Yok",
+            "neutral": "Belirli bir operatörü satmıyoruz"
+        },
+        "faq": {
+            "title": "Sıkça Sorulan Sorular",
+            "questions": [
+                {
+                    "q": "Evden çalışmak için en iyi internet hangisi?",
+                    "a": "Fiber optik internet, kararlılığı ve simetrik hızları nedeniyle genellikle en iyi seçimdir."
+                },
+                {
+                    "q": "5G internet oyun oynamak için uygun mu?",
+                    "a": "Olabilir, ancak bu bölgenizdeki sinyal gücüne ve gecikme süresine (ping) bağlıdır."
+                },
+                {
+                    "q": "Adresimde fiber olup olmadığını nasıl öğrenebilirim?",
+                    "a": "Adres kontrolümüz, size tam olarak hangi teknolojilerin mevcut olduğunu gösterecektir."
+                },
+                {
+                    "q": "Hizmet gerçekten ücretsiz mi?",
+                    "a": "Evet, son kullanıcı için hizmet tamamen ücretsizdir."
+                },
+                {
+                    "q": "Sözleşme imzalamam gerekiyor mu?",
+                    "a": "Biz sadece size danışmanlık yapıyoruz. Bir sağlayıcı seçerseniz, sözleşme sizinle onlar arasındadır."
+                }
+            ]
+        }
     }
 }

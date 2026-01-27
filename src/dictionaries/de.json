@@ -313,5 +313,104 @@
         "faqStillHaveQuestions": "Haben Sie noch Fragen?",
         "faqConsultantHelp": "Unser Berater kann Ihnen helfen, die beste Lösung unverbindlich zu finden.",
         "faqFreeConsultation": "Ich möchte eine kostenlose Beratung"
+    },
+    "internet_landing": {
+        "hero": {
+            "title": "Das beste Heiminternet für Ihre Adresse",
+            "subtitle": "Vergleichen Sie alle großen Anbieter und prüfen Sie die echte Abdeckung.",
+            "cta": "Prüfen Sie, welches Internet wirklich an Ihrer Adresse funktioniert",
+            "trust": {
+                "free": "Kostenlos",
+                "no_obligation": "Unverbindlich",
+                "independent": "Unabhängiger Service"
+            }
+        },
+        "how_it_works": {
+            "title": "Wie es funktioniert",
+            "steps": [
+                {
+                    "title": "Kurzes Quiz ausfüllen",
+                    "desc": "Dauert nur 1 Minute."
+                },
+                {
+                    "title": "Prüfung",
+                    "desc": "Wir prüfen Abdeckung und Bedarf."
+                },
+                {
+                    "title": "Empfehlung",
+                    "desc": "Sie erhalten eine persönliche Empfehlung."
+                }
+            ]
+        },
+        "educational": {
+            "title": "Arten von Heiminternet",
+            "optic": {
+                "title": "Glasfaser-Internet",
+                "subtitle": "Wann es die beste Wahl ist",
+                "desc": "Bietet höchste Geschwindigkeit und Stabilität durch Lichtsignale über Glasfaserkabel.",
+                "pros": "Maximale Geschwindigkeit, hohe Stabilität",
+                "cons": "Verfügbarkeit je nach Adresse"
+            },
+            "cable": {
+                "title": "Kabel-Internet",
+                "subtitle": "Wann es geeignet ist",
+                "desc": "Nutzt Koaxialkabel. Eine gute Alternative, wo keine Glasfaser verfügbar ist.",
+                "pros": "Weit verbreitet",
+                "cons": "Mögliche Unterbrechungen"
+            },
+            "mobile": {
+                "title": "5G Heiminternet",
+                "subtitle": "Wann es gut funktionieren kann",
+                "desc": "Drahtloses Internet über Mobilfunknetz. Einfach zu installieren.",
+                "pros": "Schnelle Installation, keine Kabel",
+                "cons": "Abhängig von Netzwerkauslastung"
+            }
+        },
+        "key_factors": {
+            "title": "Was wirklich zählt",
+            "items": [
+                "Echte Abdeckung nach Adresse (nicht nur auf Karte)",
+                "Stabilität vs. maximale Geschwindigkeit",
+                "Netzwerkauslastung am Abend",
+                "Verträge und Laufzeiten"
+            ]
+        },
+        "city_section": {
+            "title": "Heiminternet in {{city}}",
+            "description": "Verfügbarkeit und Qualität hängen von Stadt und Viertel ab.",
+            "availability_title": "Verfügbare Internet-Typen in {{city}}",
+            "problems_title": "Häufige Internet-Probleme in {{city}}"
+        },
+        "cta_repeat": {
+            "button": "Prüfen Sie, welches Internet wirklich an Ihrer Adresse funktioniert",
+            "free": "Kostenloser Service",
+            "no_obligation": "Unverbindlich",
+            "neutral": "Wir verkaufen keinen bestimmten Anbieter"
+        },
+        "faq": {
+            "title": "Häufig gestellte Fragen",
+            "questions": [
+                {
+                    "q": "Welches Internet ist am besten für Home Office?",
+                    "a": "Glasfaser-Internet ist aufgrund seiner Stabilität und symmetrischen Geschwindigkeiten meist die beste Wahl."
+                },
+                {
+                    "q": "Ist 5G-Internet für Gaming geeignet?",
+                    "a": "Es kann sein, hängt aber von Signalstärke und Latenz (Ping) in Ihrer Umgebung ab."
+                },
+                {
+                    "q": "Wie finde ich heraus, ob Glasfaser an meiner Adresse verfügbar ist?",
+                    "a": "Unser Adress-Check zeigt Ihnen genau, welche Technologien bei Ihnen verfügbar sind."
+                },
+                {
+                    "q": "Ist der Service wirklich kostenlos?",
+                    "a": "Ja, für den Endnutzer ist der Service komplett kostenlos."
+                },
+                {
+                    "q": "Muss ich einen Vertrag unterschreiben?",
+                    "a": "Wir beraten Sie nur. Wenn Sie einen Anbieter wählen, ist der Vertrag zwischen Ihnen und diesem."
+                }
+            ]
+        }
     }
 }

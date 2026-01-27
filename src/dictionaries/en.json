@@ -390,5 +390,104 @@
         "faqStillHaveQuestions": "Still have questions?",
         "faqConsultantHelp": "Our consultant can help you find the best solution without obligation.",
         "faqFreeConsultation": "I want a free consultation"
+    },
+    "internet_landing": {
+        "hero": {
+            "title": "The Best Home Internet for Your Address",
+            "subtitle": "Compare all major operators and check real coverage.",
+            "cta": "Check what internet actually works at your address",
+            "trust": {
+                "free": "Free",
+                "no_obligation": "No Obligation",
+                "independent": "Independent Service"
+            }
+        },
+        "how_it_works": {
+            "title": "How it Works",
+            "steps": [
+                {
+                    "title": "Complete a brief quiz",
+                    "desc": "Takes only 1 minute."
+                },
+                {
+                    "title": "Check",
+                    "desc": "We check coverage and your needs."
+                },
+                {
+                    "title": "Recommendation",
+                    "desc": "You receive a personalized recommendation."
+                }
+            ]
+        },
+        "educational": {
+            "title": "Types of Home Internet",
+            "optic": {
+                "title": "Fiber Optic Internet",
+                "subtitle": "When it's the best choice",
+                "desc": "Provides the highest speed and stability via light signals over optical cables.",
+                "pros": "Maximum speed, high stability",
+                "cons": "Availability depends on address"
+            },
+            "cable": {
+                "title": "Cable Internet",
+                "subtitle": "When it's suitable",
+                "desc": "Uses coaxial cables. A good alternative where fiber is not available.",
+                "pros": "Widely available",
+                "cons": "Possible interruptions"
+            },
+            "mobile": {
+                "title": "5G Home Internet",
+                "subtitle": "When it can work well",
+                "desc": "Wireless internet over mobile network. Easy to install.",
+                "pros": "Quick installation, no cables",
+                "cons": "Depends on network load"
+            }
+        },
+        "key_factors": {
+            "title": "What Really Matters",
+            "items": [
+                "Real coverage by address (not just on a map)",
+                "Stability vs maximum speed",
+                "Network load in the evening",
+                "Contracts and terms"
+            ]
+        },
+        "city_section": {
+            "title": "Home Internet in {{city}}",
+            "description": "Availability and quality depend on the specific city and neighborhood.",
+            "availability_title": "Available Internet Types in {{city}}",
+            "problems_title": "Common Internet Problems in {{city}}"
+        },
+        "cta_repeat": {
+            "button": "Check what internet actually works at your address",
+            "free": "Free Service",
+            "no_obligation": "No Obligation",
+            "neutral": "We don't sell a specific operator"
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": [
+                {
+                    "q": "Which internet is best for working from home?",
+                    "a": "Fiber optic internet is usually the best choice due to its stability and symmetrical speeds."
+                },
+                {
+                    "q": "Is 5G internet suitable for gaming?",
+                    "a": "It can be, but it depends on signal strength and latency (ping) in your area."
+                },
+                {
+                    "q": "How do I find out if there is fiber at my address?",
+                    "a": "Our address check will show you exactly what technologies are available to you."
+                },
+                {
+                    "q": "Is the service really free?",
+                    "a": "Yes, for the end user, the service is completely free."
+                },
+                {
+                    "q": "Do I need to sign a contract?",
+                    "a": "We only consult you. If you choose a provider, the contract is between you and them."
+                }
+            ]
+        }
     }
 }
