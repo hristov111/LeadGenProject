@@ -40,8 +40,8 @@ export function PageCTA({
 
             <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Link href={primaryHref} onClick={() => trackEvent(eventName, { type: "primary" })}>
-                    <Button size="lg" className="w-full sm:w-auto text-lg px-8 h-14 shadow-lg shadow-primary-500/20 gap-2">
-                        {primaryCtaText} <ArrowRight className="h-5 w-5" />
+                    <Button size="lg" className="w-full sm:w-auto text-lg px-6 py-4 min-h-14 h-auto shadow-lg shadow-primary-500/20 gap-2 whitespace-normal leading-tight">
+                        {primaryCtaText} <ArrowRight className="h-5 w-5 shrink-0" />
                     </Button>
                 </Link>
 
