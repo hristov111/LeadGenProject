@@ -2,6 +2,10 @@
     "navigation": {
         "howItWorks": "Wie es funktioniert",
         "faq": "FAQ",
+        "about": "Über uns",
+        "contact": "Kontakt",
+        "business": "Geschäft",
+        "internet": "Heiminternet",
         "phone": "0888 123 456"
     },
     "hero": {
@@ -18,6 +22,7 @@
         "ctaPrimarySub": "Nummer hinterlassen → Anruf mit passenden Angeboten erhalten",
         "ctaSecondary": "Wie es funktioniert",
         "ctaDirect": "Ich möchte einen direkten Anruf",
+        "ctaInternet": "Heiminternet prüfen",
         "cityReassurance": "Wir arbeiten in Sofia, Plovdiv, Varna und 50+ weiteren Städten."
     },
     "trust": {
@@ -100,7 +105,9 @@
     "footer": {
         "copyright": "TelecomBGLabs. Unabhängiger Telekom-Berater.",
         "disclaimer": "Nicht mit einem bestimmten Anbieter verbunden.",
+        "services": "Dienstleistungen",
         "links": {
+            "internet": "Heiminternet",
             "privacy": "Datenschutz",
             "terms": "AGB",
             "cookies": "Cookies",

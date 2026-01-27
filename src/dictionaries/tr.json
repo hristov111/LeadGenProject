@@ -2,6 +2,10 @@
     "navigation": {
         "howItWorks": "Nasıl Çalışır",
         "faq": "SSS",
+        "about": "Hakkımızda",
+        "contact": "İletişim",
+        "business": "İşletme",
+        "internet": "Ev İnterneti",
         "phone": "0888 123 456"
     },
     "hero": {
@@ -18,6 +22,7 @@
         "ctaPrimarySub": "Numara bırakın → uygun tekliflerle arama alın",
         "ctaSecondary": "Nasıl çalışır",
         "ctaDirect": "Doğrudan arama istiyorum",
+        "ctaInternet": "Ev İnternetini Kontrol Et",
         "cityReassurance": "Sofya, Filibe, Varna ve 50+ şehirde hizmet veriyoruz."
     },
     "trust": {
@@ -100,7 +105,9 @@
     "footer": {
         "copyright": "TelecomBGLabs. Bağımsız Telekom Danışmanı.",
         "disclaimer": "Belirli bir sağlayıcıyla bağlantımız yoktur.",
+        "services": "Hizmetler",
         "links": {
+            "internet": "Ev İnterneti",
             "privacy": "Gizlilik Politikası",
             "terms": "Kullanım Koşulları",
             "cookies": "Çerezler",
