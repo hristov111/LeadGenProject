@@ -33,7 +33,7 @@ export default async function InternetLandingPage({
                         {content.hero.subtitle}
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                        <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-lg font-bold shadow-lg shadow-blue-500/20 bg-blue-600 hover:bg-blue-700 transition-[transform,box-shadow] duration-200" asChild>
+                        <Button size="lg" className="w-full sm:w-auto min-h-14 h-auto py-4 px-6 text-base sm:text-lg font-bold shadow-lg shadow-blue-500/20 bg-blue-600 hover:bg-blue-700 transition-[transform,box-shadow] duration-200 whitespace-normal" asChild>
                             <Link href={`/${lang}/quiz`}>{content.hero.cta}</Link>
                         </Button>
                     </div>
