@@ -460,7 +460,8 @@
             "title": "Home Internet in {{city}}",
             "description": "Availability and quality depend on the specific city and neighborhood.",
             "availability_title": "Available Internet Types in {{city}}",
-            "problems_title": "Common Internet Problems in {{city}}"
+            "problems_title": "Common Internet Problems in {{city}}",
+            "coverage_disclaimer": "Coverage varies significantly by neighborhood. Check your specific address to see available options."
         },
         "cta_repeat": {
             "button": "Check what internet actually works at your address",

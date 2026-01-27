@@ -385,8 +385,9 @@
         "city_section": {
             "title": "{{city}} içinde Ev İnterneti",
             "description": "Kullanılabilirlik ve kalite, belirli şehre ve mahalleye bağlıdır.",
-            "availability_title": "{{city}} Mevcut İnternet Türleri",
-            "problems_title": "{{city}} Yaygın İnternet Sorunları"
+            "availability_title": "{{city}} şehrindeki Mevcut İnternet Türleri",
+            "problems_title": "{{city}} şehrindeki Yaygın İnternet Sorunları",
+            "coverage_disclaimer": "Kapsama alanı mahalleye göre önemli ölçüde değişir. Mevcut seçenekleri görmek için tam adresinizi kontrol edin."
         },
         "cta_repeat": {
             "button": "Adresinizde gerçekte hangi internetin çalıştığını kontrol edin",

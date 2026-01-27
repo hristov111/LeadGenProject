@@ -386,7 +386,8 @@
             "title": "Heiminternet in {{city}}",
             "description": "Verfügbarkeit und Qualität hängen von Stadt und Viertel ab.",
             "availability_title": "Verfügbare Internet-Typen in {{city}}",
-            "problems_title": "Häufige Internet-Probleme in {{city}}"
+            "problems_title": "Häufige Internet-Probleme in {{city}}",
+            "coverage_disclaimer": "Die Abdeckung variiert je nach Nachbarschaft erheblich. Überprüfen Sie Ihre genaue Adresse, um die verfügbaren Optionen zu sehen."
         },
         "cta_repeat": {
             "button": "Prüfen Sie, welches Internet wirklich an Ihrer Adresse funktioniert",

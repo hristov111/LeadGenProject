@@ -14,7 +14,7 @@ interface HeroButtonsProps {
 export function HeroButtons({ lang, dict }: HeroButtonsProps) {
     return (
         <div className="flex flex-col items-center animate-slideUp" style={{ animationDelay: '0.2s' }}>
-            <div className="flex flex-col sm:flex-row justify-center gap-4 max-w-lg mx-auto w-full">
+            <div className="flex flex-col sm:flex-row justify-center gap-4 max-w-2xl mx-auto w-full">
                 <div className="flex flex-col w-full sm:w-auto gap-2">
                     <Link href={`/${lang}/quiz`} onClick={() => trackEvent("quiz_start", { source: "hero_primary" })}>
                         <Button size="lg" className="w-full min-h-14 h-auto py-4 px-6 text-base sm:text-lg gap-2 shadow-xl shadow-primary-500/20 cta-attention group whitespace-normal">

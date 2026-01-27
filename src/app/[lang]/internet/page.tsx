@@ -202,8 +202,7 @@ export default async function InternetLandingPage({
                         <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
                             <h3 className="font-bold text-lg mb-4 text-slate-900">{content.city_section.problems_title.replace("{{city}}", cityPlaceholder)}</h3>
                             <p className="text-sm text-slate-600">
-                                {/* Generic placeholder text */}
-                                Coverage varies significantly by neighborhood. Check your specific address to see available options.
+                                {content.city_section.coverage_disclaimer}
                             </p>
                         </div>
                     </div>
