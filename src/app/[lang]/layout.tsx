@@ -31,6 +31,7 @@ export const viewport: Viewport = {
 };
 
 import { AnalyticsProvider } from "@/lib/analytics";
+import { MobileMenu } from "@/components/mobile-menu";
 
 // ...
 
@@ -74,7 +75,7 @@ export default async function RootLayout({
             </nav>
             <div className="flex items-center gap-2 sm:gap-4">
               <LanguageSwitcher />
-
+              <MobileMenu dict={dict} lang={lang} />
             </div>
           </div>
         </header>
