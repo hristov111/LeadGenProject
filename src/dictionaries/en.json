@@ -5,6 +5,7 @@
         "about": "About",
         "contact": "Contact",
         "business": "Business",
+        "internet": "Home Internet",
         "phone": "0888 123 456"
     },
     "hero": {
@@ -21,6 +22,7 @@
         "ctaPrimarySub": "Leave number → get call with matching offers",
         "ctaSecondary": "How it works",
         "ctaDirect": "I want a direct call",
+        "ctaInternet": "Check Home Internet by Address",
         "cityReassurance": "We work with users in Sofia, Plovdiv, Varna, Burgas and 50+ other cities."
     },
     "trust": {
@@ -103,7 +105,9 @@
     "footer": {
         "copyright": "TelecomBGLabs. Independent Telecom Advisor.",
         "disclaimer": "Not affiliated with any specific provider. We find the best public offers for you.",
+        "services": "Services",
         "links": {
+            "internet": "Home Internet",
             "privacy": "Privacy Policy",
             "terms": "Terms of Service",
             "cookies": "Cookie Policy",

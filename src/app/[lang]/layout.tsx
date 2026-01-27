@@ -62,6 +62,9 @@ export default async function RootLayout({
               </span>
             </Link>
             <nav className="hidden md:flex gap-6 text-sm font-medium text-slate-600 items-center">
+              <Link href={`/${lang}/internet`} className="hover:text-primary-600 transition-colors">
+                {dict.navigation.internet}
+              </Link>
               <Link href={`/${lang}#how-it-works`} className="hover:text-primary-600 transition-colors">
                 {dict.navigation.howItWorks}
               </Link>
@@ -83,7 +86,7 @@ export default async function RootLayout({
         <footer className="border-t border-slate-200 bg-white py-12">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 text-left">
-              <div className="md:col-span-2">
+              <div className="md:col-span-1">
                 <Link href={`/${lang}`} className="flex items-center gap-2 mb-4">
                   <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary-600 text-white font-bold">
                     T
@@ -95,6 +98,12 @@ export default async function RootLayout({
                 <p className="text-sm text-slate-500 max-w-sm">
                   {dict.footer.disclaimer}
                 </p>
+              </div>
+              <div>
+                <h4 className="font-bold text-slate-900 mb-4">{dict.footer.services}</h4>
+                <ul className="space-y-2 text-sm text-slate-500">
+                  <li><Link href={`/${lang}/internet`} className="hover:text-primary-600">{dict.footer.links.internet}</Link></li>
+                </ul>
               </div>
               <div>
                 <h4 className="font-bold text-slate-900 mb-4">{dict.navigation.about}</h4>

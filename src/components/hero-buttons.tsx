@@ -33,6 +33,14 @@ export function HeroButtons({ lang, dict }: HeroButtonsProps) {
                 </div>
             </div>
 
+            <div className="mt-4 w-full max-w-[280px] sm:max-w-xs mx-auto animate-slideUp" style={{ animationDelay: '0.3s' }}>
+                <Link href={`/${lang}/internet`} onClick={() => trackEvent("page_view", { source: "hero_internet_check" })}>
+                    <Button variant="outline" className="w-full text-slate-600 border-primary-200 hover:border-primary-400 hover:text-primary-700 bg-white/50 backdrop-blur-sm">
+                        {dict.hero.ctaInternet}
+                    </Button>
+                </Link>
+            </div>
+
             <div className="mt-4 text-center">
                 <Link href={`/${lang}#how-it-works`} className="text-sm font-medium text-slate-500 hover:text-primary-600 underline-offset-4 hover:underline transition-colors">
                     {dict.hero.ctaSecondary}
