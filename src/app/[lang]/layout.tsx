@@ -66,6 +66,9 @@ export default async function RootLayout({
               <Link href={`/${lang}/internet`} className="hover:text-primary-600 transition-colors">
                 {dict.navigation.internet}
               </Link>
+              <Link href={`/${lang}/mobile-plans`} className="hover:text-primary-600 transition-colors">
+                {dict.navigation.mobile}
+              </Link>
               <Link href={`/${lang}#how-it-works`} className="hover:text-primary-600 transition-colors">
                 {dict.navigation.howItWorks}
               </Link>
@@ -104,6 +107,7 @@ export default async function RootLayout({
                 <h4 className="font-bold text-slate-900 mb-4">{dict.footer.services}</h4>
                 <ul className="space-y-2 text-sm text-slate-500">
                   <li><Link href={`/${lang}/internet`} className="hover:text-primary-600">{dict.footer.links.internet}</Link></li>
+                  <li><Link href={`/${lang}/mobile-plans`} className="hover:text-primary-600">{dict.footer.links.mobile}</Link></li>
                 </ul>
               </div>
               <div>

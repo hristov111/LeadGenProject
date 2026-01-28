@@ -6,6 +6,7 @@
         "contact": "Contact",
         "business": "Business",
         "internet": "Home Internet",
+        "mobile": "Mobile Plans",
         "phone": "0888 123 456"
     },
     "hero": {
@@ -22,7 +23,9 @@
         "ctaPrimarySub": "Leave number → get call with matching offers",
         "ctaSecondary": "How it works",
         "ctaDirect": "I want a direct call",
+        "ctaMobile": "Check Mobile Plan →",
         "ctaInternet": "Check Home Internet by Address",
+        "intentLabel": "What are you looking for?",
         "cityReassurance": "We work with users in Sofia, Plovdiv, Varna, Burgas and 50+ other cities."
     },
     "trust": {
@@ -108,6 +111,7 @@
         "services": "Services",
         "links": {
             "internet": "Home Internet",
+            "mobile": "Mobile Plans",
             "privacy": "Privacy Policy",
             "terms": "Terms of Service",
             "cookies": "Cookie Policy",
@@ -491,6 +495,96 @@
                 {
                     "q": "Do I need to sign a contract?",
                     "a": "We only consult you. If you choose a provider, the contract is between you and them."
+                }
+            ]
+        }
+    },
+    "mobilePlans": {
+        "hero": {
+            "title": "The Most Suitable Mobile Plan for You",
+            "subtitle": "We compare all major operators. We check real coverage, not just maps. We recommend plans based on your actual usage.",
+            "cta": "Check Which Mobile Plan Suits You",
+            "trust": {
+                "free": "Free",
+                "no_obligation": "No Obligation",
+                "independent": "Independent Service"
+            }
+        },
+        "howItWorks": {
+            "title": "How It Works",
+            "steps": [
+                {
+                    "title": "1. Fill out a short survey",
+                    "desc": "Takes only 1 minute."
+                },
+                {
+                    "title": "2. Check",
+                    "desc": "We check coverage and usage habits."
+                },
+                {
+                    "title": "3. Result",
+                    "desc": "You get the most suitable options for you."
+                }
+            ]
+        },
+        "dataUsage": {
+            "title": "How Much Mobile Data Do You Really Need?",
+            "scenarios": {
+                "social": "Social Media & Chat: 5-10GB",
+                "video": "Video & Streaming: 20GB+",
+                "work": "Work, Hotspot, Navigation: 50GB+"
+            },
+            "explanation": "Many people pay for data they don't use. Others run out too fast. We help you find the balance."
+        },
+        "coverage": {
+            "title": "Coverage: Why Maps ≠ Reality",
+            "text": "Official maps are theoretical. Buildings, terrain, and congestion affect signal. Coverage can vary even on adjacent streets.",
+            "highlight": "Real coverage depends on where you use your phone."
+        },
+        "portability": {
+            "title": "Number Portability – What You Need to Know",
+            "points": [
+                "Keep your number for free.",
+                "Usually takes 2 business days.",
+                "Important: Check your contract for penalties before starting.",
+                "Always test the new operator's coverage before transferring."
+            ]
+        },
+        "dynamicCity": {
+            "title": "Mobile Coverage in {{city}}",
+            "text": "Mobile signal quality may vary in {{city}} compared to other regions. Terrain and building density have an impact."
+        },
+        "useCases": {
+            "title": "What Do You Mostly Use Your Mobile Plan For?",
+            "options": {
+                "data": "Lots of Internet (Video, Social)",
+                "travel": "Frequent Travel (EU Roaming)",
+                "talk": "Talk (Calls & SMS)"
+            },
+            "explanation": "Choosing the right category helps us filter out unnecessary extras."
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "items": [
+                {
+                    "q": "How much internet do I need per month?",
+                    "a": "Depends on usage. 10GB is enough for chat/surf, but video needs 20-30GB+."
+                },
+                {
+                    "q": "Does mobile internet work the same everywhere?",
+                    "a": "No, it depends on the operator's cell tower and obstacles around you."
+                },
+                {
+                    "q": "What should I watch out for when transferring my number?",
+                    "a": "Check your current contract expiration to avoid penalties."
+                },
+                {
+                    "q": "How does EU roaming work?",
+                    "a": "Most plans include free minutes and MBs in the EU, but there are limits."
+                },
+                {
+                    "q": "Is the service really free?",
+                    "a": "Yes, completely free for you."
                 }
             ]
         }

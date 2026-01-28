@@ -141,8 +141,11 @@ export default async function Home({ params }: { params: Promise<{ lang: Locale 
             { icon: Smartphone, ...dict.services.mobile },
             { icon: Tv, ...dict.services.tv },
             { icon: Building2, ...dict.services.business },
-          ].map((item: any, i: number) => (
-            <Card key={i} className="group hover:border-primary-200 cursor-pointer transition-all">
+          ].map((item: any, i: number) => {
+            const isClickable = item.title === dict.services.internet.title || item.title === dict.services.mobile.title;
+            const href = item.title === dict.services.internet.title ? `/${lang}/internet` : item.title === dict.services.mobile.title ? `/${lang}/mobile-plans` : "#";
+
+            const Content = (
               <CardContent className="p-6 flex flex-col items-center text-center pt-8">
                 <div className="mb-4 rounded-full bg-primary-50 p-4 group-hover:bg-primary-100 transition-colors">
                   <item.icon className="h-8 w-8 text-primary-600" />
@@ -150,8 +153,20 @@ export default async function Home({ params }: { params: Promise<{ lang: Locale 
                 <h3 className="text-lg font-bold text-slate-900 mb-1">{item.title}</h3>
                 <p className="text-sm text-slate-500">{item.desc}</p>
               </CardContent>
-            </Card>
-          ))}
+            );
+
+            return isClickable ? (
+              <Link href={href} key={i}>
+                <Card className="group hover:border-primary-200 cursor-pointer transition-all h-full">
+                  {Content}
+                </Card>
+              </Link>
+            ) : (
+              <Card key={i} className="group hover:border-primary-200 cursor-pointer transition-all h-full">
+                {Content}
+              </Card>
+            );
+          })}
         </div>
       </section>
 

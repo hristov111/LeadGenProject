@@ -6,6 +6,7 @@
         "contact": "İletişim",
         "business": "İşletme",
         "internet": "Ev İnterneti",
+        "mobile": "Mobil Tarifeler",
         "phone": "0888 123 456"
     },
     "hero": {
@@ -22,7 +23,9 @@
         "ctaPrimarySub": "Numara bırakın → uygun tekliflerle arama alın",
         "ctaSecondary": "Nasıl çalışır",
         "ctaDirect": "Doğrudan arama istiyorum",
+        "ctaMobile": "Mobil Tarifeyi Kontrol Et →",
         "ctaInternet": "Ev İnternetini Kontrol Et",
+        "intentLabel": "Ne arıyorsunuz?",
         "cityReassurance": "Sofya, Filibe, Varna ve 50+ şehirde hizmet veriyoruz."
     },
     "trust": {
@@ -108,6 +111,7 @@
         "services": "Hizmetler",
         "links": {
             "internet": "Ev İnterneti",
+            "mobile": "Mobil Tarifeler",
             "privacy": "Gizlilik Politikası",
             "terms": "Kullanım Koşulları",
             "cookies": "Çerezler",
@@ -417,6 +421,96 @@
                 {
                     "q": "Sözleşme imzalamam gerekiyor mu?",
                     "a": "Biz sadece size danışmanlık yapıyoruz. Bir sağlayıcı seçerseniz, sözleşme sizinle onlar arasındadır."
+                }
+            ]
+        }
+    },
+    "mobilePlans": {
+        "hero": {
+            "title": "İhtiyaçlarınıza En Uygun Mobil Tarife",
+            "subtitle": "Tüm büyük operatörleri karşılaştırıyoruz. Sadece haritaları değil, gerçek kapsama alanını kontrol ediyoruz. Kullanımınıza göre planlar öneriyoruz.",
+            "cta": "Hangi tarifenin size uygun olduğunu kontrol edin",
+            "trust": {
+                "free": "Ücretsiz",
+                "no_obligation": "Taahhütsüz",
+                "independent": "Bağımsız Hizmet"
+            }
+        },
+        "howItWorks": {
+            "title": "Nasıl Çalışır",
+            "steps": [
+                {
+                    "title": "1. Anketi doldurun",
+                    "desc": "Sadece 1 dakika sürer."
+                },
+                {
+                    "title": "2. Kontrol",
+                    "desc": "Kapsama ve kullanım alışkanlıklarını kontrol ediyoruz."
+                },
+                {
+                    "title": "3. Sonuç",
+                    "desc": "Size en uygun seçenekleri alın."
+                }
+            ]
+        },
+        "dataUsage": {
+            "title": "Gerçekten Ne Kadar Mobil İnternete İhtiyacınız Var?",
+            "scenarios": {
+                "social": "Sosyal Medya ve Sohbet: 5-10GB",
+                "video": "Video ve Yayın: 20GB+",
+                "work": "İş, Erişim Noktası, Navigasyon: 50GB+"
+            },
+            "explanation": "Çoğu insan kullanmadığı veriler için ödeme yapıyor. Diğerleri ise çok çabuk bitiriyor. Dengeyi bulmanıza yardımcı oluyoruz."
+        },
+        "coverage": {
+            "title": "Kapsama Alanı: Haritalar Neden Gerçeği Yansıtmaz?",
+            "text": "Resmi haritalar teoriktir. Binalar, arazi ve yoğunluk sinyali etkiler. Yan sokakta bile çekim gücü değişebilir.",
+            "highlight": "Gerçek kapsama alanı telefonu nerede kullandığınıza bağlıdır."
+        },
+        "portability": {
+            "title": "Numara Taşıma – Bilmeniz Gerekenler",
+            "points": [
+                "Numaranızı ücretsiz koruyun.",
+                "Genellikle 2 iş günü sürer.",
+                "Önemli: Başlamadan önce sözleşmenizi cezalar için kontrol edin.",
+                "Taşımadan önce yeni operatörün çekim gücünü test edin."
+            ]
+        },
+        "dynamicCity": {
+            "title": "{{city}} Mobil Kapsama Alanı",
+            "text": "{{city}} bölgesinde sinyal kalitesi diğer bölgelere göre farklılık gösterebilir. Arazi ve yapılaşma etkili olabilir."
+        },
+        "useCases": {
+            "title": "Tarifenizi En Çok Ne İçin Kullanıyorsunuz?",
+            "options": {
+                "data": "Bol İnternet (Video, Sosyal Medya)",
+                "travel": "Sık Seyahat (AB Dolaşım)",
+                "talk": "Konuşma (Arama ve SMS)"
+            },
+            "explanation": "Doğru kategoriyi seçmek gereksiz ekstraları elememize yardımcı olur."
+        },
+        "faq": {
+            "title": "Sıkça Sorulan Sorular",
+            "items": [
+                {
+                    "q": "Ayda ne kadar internete ihtiyacım var?",
+                    "a": "Kullanıma bağlı. Sohbet için 10GB yeterli, video için 20-30GB+."
+                },
+                {
+                    "q": "Mobil internet her yerde aynı mı çalışır?",
+                    "a": "Hayır, baz istasyonuna ve engellere bağlıdır."
+                },
+                {
+                    "q": "Numara taşırken neye dikkat etmeliyim?",
+                    "a": "Cezalardan kaçınmak için mevcut sözleşmenizi kontrol edin."
+                },
+                {
+                    "q": "AB dolaşımı nasıl çalışır?",
+                    "a": "Çoğu plan AB içinde ücretsiz dakika ve veri içerir, ancak limitler vardır."
+                },
+                {
+                    "q": "Hizmet gerçekten ücretsiz mi?",
+                    "a": "Evet, sizin için tamamen ücretsiz."
                 }
             ]
         }

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Smartphone, Home } from "lucide-react";
 import { trackEvent } from "@/lib/analytics";
 import { Locale } from "@/i18n-config";
 
@@ -33,12 +33,29 @@ export function HeroButtons({ lang, dict }: HeroButtonsProps) {
                 </div>
             </div>
 
-            <div className="mt-4 w-full max-w-[280px] sm:max-w-xs mx-auto animate-slideUp" style={{ animationDelay: '0.3s' }}>
-                <Link href={`/${lang}/internet`} onClick={() => trackEvent("page_view", { source: "hero_internet_check" })}>
-                    <Button variant="outline" className="w-full text-slate-600 border-primary-200 hover:border-primary-400 hover:text-primary-700 bg-white/50 backdrop-blur-sm whitespace-normal h-auto py-2">
-                        {dict.hero.ctaInternet}
-                    </Button>
-                </Link>
+            <div className="mt-8 w-full max-w-lg mx-auto animate-slideUp" style={{ animationDelay: '0.3s' }}>
+                <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3 text-center">
+                    {dict.hero.intentLabel}
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                    <Link
+                        href={`/${lang}/internet`}
+                        className="group flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-primary-300 hover:bg-primary-50/50 hover:text-primary-700 transition-all duration-200 shadow-sm hover:shadow-md"
+                        onClick={() => trackEvent("intent_select", { type: "internet", source: "hero_pills" })}
+                    >
+                        <Home className="h-4 w-4 text-slate-400 group-hover:text-primary-500 transition-colors" />
+                        <span className="font-medium">{dict.navigation.internet}</span>
+                    </Link>
+
+                    <Link
+                        href={`/${lang}/mobile-plans`}
+                        className="group flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-primary-300 hover:bg-primary-50/50 hover:text-primary-700 transition-all duration-200 shadow-sm hover:shadow-md"
+                        onClick={() => trackEvent("intent_select", { type: "mobile", source: "hero_pills" })}
+                    >
+                        <Smartphone className="h-4 w-4 text-slate-400 group-hover:text-primary-500 transition-colors" />
+                        <span className="font-medium">{dict.navigation.mobile}</span>
+                    </Link>
+                </div>
             </div>
 
             <div className="mt-4 text-center">

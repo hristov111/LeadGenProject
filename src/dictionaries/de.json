@@ -6,6 +6,7 @@
         "contact": "Kontakt",
         "business": "Geschäft",
         "internet": "Heiminternet",
+        "mobile": "Handytarife",
         "phone": "0888 123 456"
     },
     "hero": {
@@ -22,7 +23,9 @@
         "ctaPrimarySub": "Nummer hinterlassen → Anruf mit passenden Angeboten erhalten",
         "ctaSecondary": "Wie es funktioniert",
         "ctaDirect": "Ich möchte einen direkten Anruf",
+        "ctaMobile": "Handytarif prüfen →",
         "ctaInternet": "Heiminternet prüfen",
+        "intentLabel": "Was suchen Sie?",
         "cityReassurance": "Wir arbeiten in Sofia, Plovdiv, Varna und 50+ weiteren Städten."
     },
     "trust": {
@@ -108,6 +111,7 @@
         "services": "Dienstleistungen",
         "links": {
             "internet": "Heiminternet",
+            "mobile": "Handytarife",
             "privacy": "Datenschutz",
             "terms": "AGB",
             "cookies": "Cookies",
@@ -417,6 +421,96 @@
                 {
                     "q": "Muss ich einen Vertrag unterschreiben?",
                     "a": "Wir beraten Sie nur. Wenn Sie einen Anbieter wählen, ist der Vertrag zwischen Ihnen und diesem."
+                }
+            ]
+        }
+    },
+    "mobilePlans": {
+        "hero": {
+            "title": "Der passende Handytarif für Ihre Bedürfnisse",
+            "subtitle": "Wir vergleichen alle großen Anbieter. Wir prüfen die reale Netzabdeckung, nicht nur Karten. Wir empfehlen Tarife basierend auf Ihrer tatsächlichen Nutzung.",
+            "cta": "Prüfen Sie, welcher Tarif zu Ihnen passt",
+            "trust": {
+                "free": "Kostenlos",
+                "no_obligation": "Unverbindlich",
+                "independent": "Unabhängiger Service"
+            }
+        },
+        "howItWorks": {
+            "title": "Wie es funktioniert",
+            "steps": [
+                {
+                    "title": "1. Umfrage ausfüllen",
+                    "desc": "Dauert nur 1 Minute."
+                },
+                {
+                    "title": "2. Prüfung",
+                    "desc": "Wir prüfen Abdeckung und Nutzung."
+                },
+                {
+                    "title": "3. Ergebnis",
+                    "desc": "Sie erhalten die passenden Optionen."
+                }
+            ]
+        },
+        "dataUsage": {
+            "title": "Wie viel mobiles Internet brauchen Sie wirklich?",
+            "scenarios": {
+                "social": "Social Media & Chat: 5-10GB",
+                "video": "Video & Streaming: 20GB+",
+                "work": "Arbeit, Hotspot, Navigation: 50GB+"
+            },
+            "explanation": "Viele zahlen für Daten, die sie nicht nutzen. Andere verbrauchen sie zu schnell. Wir helfen Ihnen, die Balance zu finden."
+        },
+        "coverage": {
+            "title": "Abdeckung: Warum Karten nicht alles zeigen",
+            "text": "Offizielle Karten sind theoretisch. Gebäude, Gelände und Auslastung beeinflussen das Signal. Die Abdeckung kann je nach Straße variieren.",
+            "highlight": "Die reale Abdeckung hängt davon ab, wo Sie Ihr Handy nutzen."
+        },
+        "portability": {
+            "title": "Rufnummernmitnahme – Was Sie wissen müssen",
+            "points": [
+                "Nummer kostenlos behalten.",
+                "Dauert meist 2 Werktage.",
+                "Wichtig: Vertragslaufzeit und Kündigungsfristen prüfen.",
+                "Testen Sie immer das Netz des neuen Anbieters vor dem Wechsel."
+            ]
+        },
+        "dynamicCity": {
+            "title": "Mobile Netzabdeckung in {{city}}",
+            "text": "Die Signalqualität kann in {{city}} anders sein als in anderen Regionen. Gelände und Bebauung haben Einfluss."
+        },
+        "useCases": {
+            "title": "Wofür nutzen Sie Ihren Tarif am meisten?",
+            "options": {
+                "data": "Viel Internet (Video, Social)",
+                "travel": "Reisen (EU Roaming)",
+                "talk": "Telefonie & SMS"
+            },
+            "explanation": "Die Wahl der richtigen Kategorie hilft uns, unnötige Extras zu filtern."
+        },
+        "faq": {
+            "title": "Häufig gestellte Fragen (FAQ)",
+            "items": [
+                {
+                    "q": "Wie viel Internet brauche ich im Monat?",
+                    "a": "Hängt von der Nutzung ab. 10GB reichen für Chat, 20-30GB+ für Video."
+                },
+                {
+                    "q": "Funktioniert mobiles Internet überall gleich?",
+                    "a": "Nein, es hängt vom Sendemast und Hindernissen ab."
+                },
+                {
+                    "q": "Worauf bei Rufnummernmitnahme achten?",
+                    "a": "Prüfen Sie Ihre Vertragsbindung, um Strafen zu vermeiden."
+                },
+                {
+                    "q": "Wie funktioniert EU-Roaming?",
+                    "a": "Meist sind Minuten und Daten im EU-Ausland inklusive, aber mit Limits."
+                },
+                {
+                    "q": "Ist der Service wirklich kostenlos?",
+                    "a": "Ja, für Sie komplett kostenlos."
                 }
             ]
         }
