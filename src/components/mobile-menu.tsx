@@ -32,6 +32,13 @@ export function MobileMenu({ dict, lang }: MobileMenuProps) {
                         {dict.navigation.internet}
                     </Link>
                     <Link
+                        href={`/${lang}/mobile-plans`}
+                        className="text-lg font-medium text-slate-800 py-2 border-b border-slate-50"
+                        onClick={() => setIsOpen(false)}
+                    >
+                        {dict.navigation.mobile}
+                    </Link>
+                    <Link
                         href={`/${lang}#how-it-works`}
                         className="text-lg font-medium text-slate-800 py-2 border-b border-slate-50"
                         onClick={() => setIsOpen(false)}
