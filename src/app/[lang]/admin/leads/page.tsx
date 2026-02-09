@@ -19,6 +19,7 @@ import {
     DialogTitle,
     DialogFooter,
 } from "@/components/ui/dialog";
+import { ErrorBanner } from "@/components/ui/error-banner";
 
 interface Lead {
     id: string;
@@ -224,6 +225,9 @@ export default function AdminPage({ params }: { params: Promise<{ lang: string }
                         }}>Експорт</Button>
                     </div>
                 </div>
+
+                {/* Error Banner */}
+                <ErrorBanner error={error} onDismiss={() => setError("")} />
 
                 {/* Main Content Area */}
                 {isLoading && leads.length === 0 ? (

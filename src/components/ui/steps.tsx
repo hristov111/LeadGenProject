@@ -9,7 +9,7 @@ interface StepsProps {
 
 export function Steps({ steps, currentStep }: StepsProps) {
     return (
-        <div className="w-full">
+        <div className="w-full pb-12">
             <div className="relative flex justify-between">
                 {/* Connecting line */}
                 <div className="absolute top-1/2 left-0 h-1 w-full -translate-y-1/2 bg-slate-100 z-0" />

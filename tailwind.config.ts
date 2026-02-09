@@ -6,8 +6,21 @@ const config: Config = {
         "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
         "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
+    future: {
+        hoverOnlyWhenSupported: true,
+    },
     theme: {
+        container: {
+            center: true,
+            padding: "2rem",
+            screens: {
+                "2xl": "1400px",
+            },
+        },
         extend: {
+            screens: {
+                xs: "475px",
+            },
             colors: {
                 background: "var(--background)",
                 foreground: "var(--foreground)",

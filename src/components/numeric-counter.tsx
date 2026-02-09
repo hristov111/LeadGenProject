@@ -26,7 +26,6 @@ export function NumericCounter({
                     const step = (timestamp: number) => {
                         if (!startTimestamp) startTimestamp = timestamp;
                         const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-                        // Ease out quad
                         const easedProgress = progress * (2 - progress);
                         setCount(Math.floor(easedProgress * target));
                         if (progress < 1) {

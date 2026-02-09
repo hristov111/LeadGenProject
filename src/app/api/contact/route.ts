@@ -1,18 +1,22 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
+import { contactSchema } from "@/lib/schemas";
 
 export async function POST(request: Request) {
     try {
         const body = await request.json();
-        const { name, email, message } = body;
 
-        // Validation
-        if (!name || !email || !message) {
+        // Zod Validation
+        const result = contactSchema.safeParse(body);
+
+        if (!result.success) {
             return NextResponse.json(
-                { error: "Missing required fields" },
+                { error: "Validation failed", details: result.error.flatten() },
                 { status: 400 }
             );
         }
+
+        const { name, email, message } = result.data;
 
         // Initialize Resend
         const resend = new Resend(process.env.RESEND_API_KEY);
